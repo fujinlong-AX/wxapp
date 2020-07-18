@@ -1,0 +1,9 @@
+<!--pages/hongbao/hongbao.wxml-->
+<view class="container">
+  <view class="img">
+    <image src="./image/1.png"></image>
+    <view class="header-pic">
+      aaaa
+    </view>
+  </view>
+</view>

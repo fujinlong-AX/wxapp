@@ -1,0 +1,14 @@
+{
+  "pages": [
+    "pages/hongbao/hongbao",
+    "pages/card/card"
+  ],
+  "window": {
+    "backgroundTextStyle": "dark",
+    "navigationBarBackgroundColor": "#ff0000",
+    "navigationBarTitleText": "红包",
+    "navigationBarTextStyle": "black"
+  },
+  "style": "v2",
+  "sitemapLocation": "sitemap.json"
+}
