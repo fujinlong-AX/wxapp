@@ -1,20 +1,125 @@
 /* pages/hongbao/hongbao.wxss */
-.container,.img,image{
-  margin: 0;
-  padding: 0;
-}
+
 .container{
-  /* width: 100%;
-  height: 100%; */
+  width: 100%;
+  padding: 0;
+ 
+}
+.head{
+  width: 375px;
+  height: 106px;
+  background-color: #f5fafe;
   position: relative;
 }
-.img image{
-  position: absolute;
-  width: 100%;
-  left: 0;
-  top: -140px;
-  transform: scale(1.3);
+.bg-pic{
+  width: 375px;
+  padding: 0;
+  height: 70px;
 }
 .header-pic{
-  z-index: 50;
+  width: 66px;
+  height: 66px;
+  border-radius: 50%;
+  position: absolute;
+  top:35px;
+  left: 50%;
+  transform: translate(-50%);
+  overflow: hidden;
+}
+.header-pic-img{
+  width: 100%;
+  height: 100%;
+}
+.info{
+  width: 100%;
+  height: 113px;
+  background-color: #f5fafe;
+}
+.username{
+  font-size: 20px;
+  text-align: center;
+}
+.congra{
+  font-size: 20px;
+  text-align: center;
+}
+.qian{
+  display: flex;
+  justify-content: center;
+  align-items: baseline;
+}
+.money{
+  font-size: 24px;
+  /* line-height: 24px; */
+  font-weight: 400;
+}
+.yuan{
+  font-size: 14px;
+}
+.operation{
+  background-color: #f5fafe;
+  height: 34px;
+}
+.haobao-record{
+  margin-left: 14px;
+  margin-right: 75px;
+}
+.withdraw-deposit{
+  margin-right: 73px;
+}
+.transpond{
+  margin-right: 14px;
+}
+.operation text{
+  color: #76bcfd;
+}
+.hongbao-amounts{
+  font-size: 11px;
+  color: #999999;
+  height: 30px;
+  line-height: 30px;
+  padding-left: 14px;
+  border-bottom: 1px solid #e1e1e1;
+}
+.open-hongbao1{
+  color: #999999;
+  margin-left: 15px;
+  margin-right: 15px;
+  height: 62px;
+  /* line-height: 62px; */
+  justify-content: center;
+  border-bottom: 1px solid #e1e1e1;
+  align-items: center;
+}
+.open-hongbao2{
+  color: #999999;
+  padding-left: 15px;
+  margin-right: 15px;
+  height: 62px;
+  /* line-height: 62px; */
+  /* display: flex; */
+}
+.time1{
+  position: relative;
+}
+.open-haobao-money{
+  left:600rpx;
+  top: -50rpx;
+  position: relative;
+  /* right: 0; */
+  font-size: 24px;
+  color: #696969;
+  /* top: 1px; */
+}
+.item{
+  position: relative;
+  top: 5px;
+}
+.item1{
+  position: relative;
+  top: 5px;
+}
+.time1{
+  position: relative;
+  top: 8px;
 }

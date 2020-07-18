@@ -1,9 +1,35 @@
 <!--pages/hongbao/hongbao.wxml-->
 <view class="container">
-  <view class="img">
-    <image src="./image/1.png"></image>
-    <view class="header-pic">
-      aaaa
-    </view>
+<view class="head">
+   <image class="bg-pic" src="./image/1.png"></image>
+  <view class="header-pic">
+    <image class="header-pic-img" src="https://ss1.bdstatic.com/70cFuXSh_Q1YnxGkpoWK1HF6hhy/it/u=1461372832,2304291019&fm=26&gp=0.jpg"></image>
+  </view>
+</view>
+  <view class="info">
+      <view class="username">IU</view> 
+      <view class="congra">恭喜发财，大吉大利</view>
+      <view class="qian">
+            <view class="money">12.3</view>
+            <view class="yuan">元</view>
+      </view>
+  </view>
+  <view class="operation">
+    <text class="haobao-record">红包记录</text>
+    <text class="withdraw-deposit">前去体现</text>
+    <text class="">转给好友</text>
+  </view>
+  <view class="hongbao-amounts">
+    共100个红包，已领取3个
+  </view>
+  <view class="open-hongbao1">
+    <text class="item" style="color:#414141;">拆红包  </text><text class="item1">(浅浅的夏)</text>
+    <view class="time1">2018/12/30 21:43</view>
+    <view class="open-haobao-money">5元</view>
+  </view>
+  <view class="open-hongbao2">
+    <text class="item" style="color:#414141;">拆红包  </text><text class="item1">(浅浅的夏)</text>
+    <view class="time1">2018/12/30 21:43</view>
+    <view class="open-haobao-money">5元</view>
   </view>
 </view>
